@@ -1,46 +1,16 @@
-.header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    background-color:cornflowerblue;
-  }
-  
-  .menu {
-    z-index: 100;
-  }
-  .container{
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul {
-    list-style: none;
-    overflow: hidden;
+.nav-item{
+  font-size: 25px;
+  margin: 30px;
+}
 
-  }
-  
-  nav ul li {
-    display: inline-flex;
-    font-family: system-ui;
-    font-size: 25px;
-    margin: auto;
-  }
-  
-  ul li a {
-    color: cornflowerblue;
-    text-decoration: none;
-    overflow: hidden;
-    display: block;
-  
-  }
-  
-  nav ul li:hover {
-    background: #cdcdcd;
-  }
+.btn{
+  margin-right: 30px;
+}
+
+.imagen{
+  margin: 10px; 
+  margin-right: 30px;
+  margin-left: 30px;
+}
 
 
-
-  

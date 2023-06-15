@@ -5,11 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { MuleflexComponent } from './muleflex/muleflex.component';
+import { AyudaComponent } from './ayuda/ayuda.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    InicioComponent,
+    MuleflexComponent,
+    AyudaComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
